@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gbu.abhivyanjan2015" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".frontPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".about"
+            android:label="Abhivyanjan@2015" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Abhivyanjana"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABHIVYANJANA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Event"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Developers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVELOPERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Adventure"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ADVENTURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Architecture"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ARCHITECTURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ArtClub"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ARTCLUB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AudioVisual"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AUDIOVISUAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dance"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DANCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Debating"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEBATING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dramatics"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DRAMATICS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IEEE"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.IEEE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JournalClub"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.JOURNALCLUB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Literary"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LITERARY" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MBA"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MBA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".Music"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MUSIC" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+       <activity
+    android:name=".Photography"
+    android:label="@string/app_name" >
+    <intent-filter>
+        <action android:name="android.intent.action.PHOTOGRAPHY" />
+        <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>
+</activity>
+        <activity
+            android:name=".Robotics"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ROBOTICS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SAE"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SAE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".SCE"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.SCE" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".ScavengerHunt"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCAVENGERHUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PleasureTreasure"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCAVENGERHUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaintGrenade"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PAINTGRENADE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SketchTheScinerio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SKETCHTHESCINERIO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GottaHangEmAll"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GOTTAHANGEMALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmbossIt"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EMBOSSIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaperShaper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PAPERSHAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EggPainting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EGGPAINTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WrapperWarriors"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.WRAPPERWARRIORS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rangoli"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RANGOLI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Youtubers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.YOUTUBERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GBUIN60SEC"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GBUIN60SEC" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SkitCompetition"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SKITCOMPETITION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KillTheBeats"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KILLTHEBEATS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Debate"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEBATE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Extempore"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EXTEMPORE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreativeWriting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATIVEWRITING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActOnTheSpot"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTONTHESPOT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComedyHour"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.COMEDYHOUR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CircuitMania"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIRCUITMANIA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BrainFreeze"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BRAINFREEZE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CanYouMimic"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CANYOUMIMIC" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfessionalWriting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PROFESSIONALWRITING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LiteraryWriting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LITERARYWRITING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KaviSammelan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KAVISAMMELAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IActive"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.IACTIVE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GlobalEdge"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GLOBALEDGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Melodia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MELODIA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShutterCusine"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SHUTTERCUSINE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Selfiesh"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SELFIESH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LineFollower"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LINEFOLLOWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GamingFiesta"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GAMINGFIESTA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WoodenCar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.WOODENCAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BoatsWars"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOATSWARS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PalaceOfCards"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PALACEOFCARDS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BrickBond007"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BRICKBOND007" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+</application>
+
+</manifest>

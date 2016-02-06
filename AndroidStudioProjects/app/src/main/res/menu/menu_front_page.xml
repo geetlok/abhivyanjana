@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".frontPage">
+    <item
+        android:id="@+id/proceed"
+        android:alphabeticShortcut="a"
+        android:title="PROCEED"></item>
+    <item
+        android:id="@+id/menuToast"
+        android:alphabeticShortcut="b"
+        android:title="EXIT"></item>
+    </menu>
